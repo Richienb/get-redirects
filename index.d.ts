@@ -1,14 +1,19 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * Get the urls redirected to when loading a url.
+ * @param url The URL to check.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const getRedirects = require("get-redirects");
+ *
+ * (async () => {
+ *     await getRedirects("https://google.com")
+ *     //=> ['https://www.google.com/']
+ *
+ *     await getRedirects("http://richienb.github.io")
+ *     //=> ['http://www.richie-bendall.ml/', 'https://www.richie-bendall.ml/']
+ * })()
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare function getRedirects(url: string): Promise<string[]>;
 
-export = theModule;
+export = getRedirects;

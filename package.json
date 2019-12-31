@@ -1,8 +1,8 @@
 {
-    "name": "the-module",
+    "name": "get-redirects",
     "version": "0.0.0",
-    "description": "My awesome module.",
-    "repository": "https://github.com/Richienb/the-module.git",
+    "description": "Get the urls redirected to when loading a url.",
+    "repository": "https://github.com/Richienb/get-redirects.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
@@ -17,8 +17,22 @@
         "lint": "xo",
         "test": "yarn lint && ava"
     },
-    "keywords": [],
-    "dependencies": {},
+    "keywords": [
+        "url",
+        "get",
+        "check",
+        "follow",
+        "redirects",
+        "fetch",
+        "request",
+        "site"
+    ],
+    "dependencies": {
+        "is-url-superb": "^3.0.0",
+        "ky": "^0.16.1",
+        "ky-universal": "^0.3.0",
+        "ow": "^0.15.0"
+    },
     "devDependencies": {
         "ava": "^2.4.0",
         "eslint-config-richienb": "^0.2.3",
