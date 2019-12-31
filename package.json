@@ -1,6 +1,6 @@
 {
     "name": "get-redirects",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Get the urls redirected to when loading a url.",
     "repository": "https://github.com/Richienb/get-redirects.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
