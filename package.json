@@ -29,7 +29,7 @@
     ],
     "dependencies": {
         "is-url-superb": "^3.0.0",
-        "ky": "^0.16.1",
+        "ky": "^0.18.0",
         "ky-universal": "^0.3.0",
         "ow": "^0.15.0"
     },
